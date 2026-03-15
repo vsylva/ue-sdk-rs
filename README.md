@@ -16,3 +16,5 @@ For well-known reasons, you need to locate certain function addresses on their o
 A small utility is also included, which can replace the offsets in the SDK with the latest ones from the dumper-7 SDK.
 
 ./offsets_replacer.exe  C:\Dumper-7\5.5.4-801548+++ARK1+Rel-1.83-ShooterGame\CppSDK  ../../src/SDK
+
+https://github.com/microsoft/windows-rs
