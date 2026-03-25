@@ -67,17 +67,17 @@ impl TurretTargetingMode {
     pub const fn to_string(&self,) -> &'static str {
         match self
         {
-            Self::AllTargets => "全",
+            Self::AllTargets => "ALL",
 
-            Self::PlayersAndTamed => "人|驯",
+            Self::PlayersAndTamed => "H|T",
 
-            Self::OnlyPlayers => "人",
+            Self::OnlyPlayers => "H",
 
-            Self::OnlyWild => "野",
+            Self::OnlyWild => "W",
 
-            Self::OnlyTamed => "驯",
+            Self::OnlyTamed => "T",
 
-            Self::OnlyPlayersAndMountedDinos => "人|骑",
+            Self::OnlyPlayersAndMountedDinos => "H|R",
             Self::Unknown => "?",
         }
     }

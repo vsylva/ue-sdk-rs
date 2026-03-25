@@ -1,6 +1,6 @@
 use super::Structs::{FName::FName, FTransform::FTransform, FVector::FVector};
 
-#[doc = "ComponentToWorld与PhysicsVolumeChangedDelegate相差0x40"]
+#[doc = "PhysicsVolumeChangedDelegate - 0x40 = ComponentToWorld"]
 #[struct_macro::inherit(super::UActorComponent::UActorComponent, Flags)]
 #[derive(Debug, Copy, Clone,)]
 #[repr(C)]

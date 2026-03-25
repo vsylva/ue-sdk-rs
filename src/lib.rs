@@ -111,7 +111,7 @@ pub unsafe extern "system" fn PostRender(this: usize, canvas_ptr: *mut SDK::UCan
             fs,
             screen_pos,
             SDK::Structs::FVector2D::FVector2D::half(),
-            SDK::Structs::FLinearColor::FLinearColor::发光_纯绿,
+            SDK::Structs::FLinearColor::FLinearColor::GREEN,
             1.0,
             SDK::Structs::FLinearColor::FLinearColor::zero(),
             SDK::Structs::FVector2D::FVector2D::zero(),
@@ -138,7 +138,7 @@ pub mod World {
     pub static mut PersistentLevel: *mut ULevel = null_mut();
     pub static mut NetDriver: *mut UNetDriver = null_mut();
     pub static mut GameState: *mut AShooterGameState = null_mut();
-    pub static mut Levels: TArray<*mut ULevel,> = TArray::zero(); // 假设有new
+    pub static mut Levels: TArray<*mut ULevel,> = TArray::zero();
     pub static mut OwningGameInstance: *mut UGameInstance = null_mut();
     pub static mut LocalPlayer: *mut ULocalPlayer = null_mut();
     pub static mut PlayerController: *mut AShooterPlayerController = null_mut();

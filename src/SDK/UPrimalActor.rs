@@ -1,6 +1,6 @@
 use super::Structs::FString::FString;
 
-#[doc = "ActorType 在 DesiredRepGraphBehavior 下面 +0x3 的位置"]
+#[doc = "DesiredRepGraphBehavior + 0x3 = ActorType"]
 #[struct_macro::bitfields]
 #[struct_macro::inherit(super::UObject::UObject, Flags)]
 #[derive(Debug, Copy, Clone,)]

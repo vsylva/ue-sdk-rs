@@ -16,16 +16,16 @@ pub struct UPrimalCharacterStatusComponent {
 #[derive(Debug, Copy, Clone,)]
 #[repr(C)]
 pub struct MaxStatusValues {
-    pub 生命: f32,
-    pub 耐力: f32,
-    pub 眩晕: f32,
-    pub 氧气: f32,
-    pub 食物: f32,
-    pub 水:   f32,
-    空7:      f32,
-    pub 负重: f32,
-    空8:      f32,
-    空9:      f32,
-    pub 抗性: f32,
-    空11:     f32,
+    pub health:    f32,
+    pub stamina:   f32,
+    pub torpidity: f32,
+    pub oxygen:    f32,
+    pub food:      f32,
+    pub water:     f32,
+    _padding_7:    f32,
+    pub weight:    f32,
+    _padding_8:    f32,
+    _padding_9:    f32,
+    pub fortitude: f32,
+    _padding_11:   f32,
 }
